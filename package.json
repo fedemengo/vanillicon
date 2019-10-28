@@ -1,0 +1,32 @@
+{
+  "name": "vanillicon",
+  "version": "1.0.0",
+  "description": "Wapper for http://vanillicon.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fedemengo/vanillicon.git"
+  },
+  "keywords": [
+    "avatar",
+    "unique",
+    "hash"
+  ],
+  "author": "fedemengo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fedemengo/vanillicon/issues"
+  },
+  "homepage": "https://github.com/fedemengo/vanillicon#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
