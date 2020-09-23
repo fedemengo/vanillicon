@@ -1,5 +1,5 @@
 {
-  "name": "vanillicon",
+  "name": "@fedemengo/vanillicon",
   "version": "1.0.0",
   "description": "Wapper for http://vanillicon.com",
   "main": "index.js",
@@ -28,5 +28,8 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.2.2"
+  },
+  "publishConfig": { 
+	  "registry": "https://npm.pkg.github.com/" 
   }
 }
